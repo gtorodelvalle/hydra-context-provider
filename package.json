@@ -44,6 +44,7 @@
   "keywords": [],
   "dependencies": {
     "app-root-path": "^2.0.1",
+    "boom": "^4.2.0",
     "hapi": "^16.1.0",
     "joi": "^10.2.0",
     "logops": "^1.0.7",
