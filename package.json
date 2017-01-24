@@ -1,0 +1,52 @@
+{
+  "name": "hydra-context-provider",
+  "description": "A simulator of Hydra acting as a FIWARE Context Provider (HCP) for command interactions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gtorodelvalle/hydra-context-provider",
+  "author": {
+    "name": "Germán Toro del Valle",
+    "email": "gtorodelvalle@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gtorodelvalle/hydra-context-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gtorodelvalle/hydra-context-provider/issues"
+  },
+  "main": "lib/hcp",
+  "engines": {
+    "node": ">=0.10.22"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-gjslint": "~0.1.0",
+    "grunt": "~0.4.1",
+    "mocha": "~1.13.0",
+    "grunt-mocha-test": "~0.7.0",
+    "chai": "~1.8.0",
+    "sinon": "~1.7.3",
+    "istanbul": "~0.3.2",
+    "grunt-exec": "~0.4.0",
+    "grunt-dox": "~0.5.0",
+    "grunt-github-pages": "~0.0.3",
+    "grunt-plato": "~0.2.0",
+    "sinon-chai": "2.4.0",
+    "proxyquire": "0.5.1",
+    "grunt-mkdir": "~0.1.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-githooks": "~0.3.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "hapi": "^16.1.0",
+    "joi": "^10.2.0",
+    "logops": "^1.0.7",
+    "request": "^2.79.0"
+  }
+}
